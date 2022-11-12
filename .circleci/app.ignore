@@ -1,2 +1,7 @@
-*
-!scripts/
+.circleci/
+.github/
+scripts/
+.pre-commit-config.yaml
+LICENSE
+README.md
+renovate.json
