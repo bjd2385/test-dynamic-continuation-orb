@@ -1,6 +1,2 @@
-README.md
-LICENSE
-renovate.json
-.pre-commit-config.yaml
-.github/
-scripts/
+*
+!scripts/

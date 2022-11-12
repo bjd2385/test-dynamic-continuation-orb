@@ -6,9 +6,7 @@ orbs:
   dynamic: bjd2385/dynamic-continuation@dev:alpha
 
 workflows:
-  version: 2
-
-  default:
+  test-dynamic-continuation-orb:
     jobs:
       - dynamic/continue:
           context: orb-publishing
