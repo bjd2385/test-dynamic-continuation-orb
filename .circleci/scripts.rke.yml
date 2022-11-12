@@ -7,4 +7,5 @@ workflows:
   scripts.rke:
     jobs:
       - shellcheck/check:
+          name: shellcheck scripts/rke/
           dir: ./scripts/rke

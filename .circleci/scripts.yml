@@ -7,4 +7,5 @@ workflows:
   scripts:
     jobs:
       - shellcheck/check:
+          name: shellcheck scripts/
           dir: ./scripts
