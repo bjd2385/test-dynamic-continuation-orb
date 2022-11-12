@@ -9,7 +9,9 @@ workflows:
   test-dynamic-continuation-orb:
     jobs:
       - dynamic/continue:
+          debug: true
           context: orb-publishing
           modules: |
-            .
-            scripts
+            /
+            /scripts
+            /scripts/rke/

@@ -4,8 +4,8 @@ orbs:
   shellcheck: circleci/shellcheck@3.1.0
 
 workflows:
-  scripts:
+  scripts.rke:
     jobs:
       - shellcheck/check:
-          name: shellcheck scripts/
-          dir: ./scripts
+          name: shellcheck scripts/rke/
+          dir: ./scripts/rke
