@@ -12,5 +12,4 @@ workflows:
           context: orb-publishing
           modules: |
             /
-            /scripts/
-            /
+            /scripts
