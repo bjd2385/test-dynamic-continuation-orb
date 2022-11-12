@@ -12,5 +12,5 @@ workflows:
           debug: true
           context: orb-publishing
           modules: |
-            .
-            scripts
+            /
+            /scripts
