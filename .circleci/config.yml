@@ -13,5 +13,5 @@ workflows:
       - dynamic/continue:
           context: orb-publishing
           modules: |
-            /
-            /scripts
+            .
+            scripts
