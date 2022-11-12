@@ -3,14 +3,12 @@ version: 2.1
 setup: true
 
 orbs:
-  dynamic: bjd2385/dynamic-continuation@3.0.0
+  dynamic: bjd2385/dynamic-continuation@dev:alpha
 
 workflows:
-  version: 2
-
-  default:
+  test-dynamic-continuation-orb:
     jobs:
-      - dynamic/extend:
+      - dynamic/continue:
           context: orb-publishing
           modules: |
             .
